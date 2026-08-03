@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['DM Sans', 'sans-serif'],
+        sans: ['Poppins', 'sans-serif'],
         display: ['DM Serif Display', 'serif'],
       },
       colors: {

@@ -14,6 +14,7 @@ import Trends from "./pages/Trends";
 import BuyingGuide from "./pages/BuyingGuide";
 import TopPicks from "./pages/TopPicks";
 import About from "./pages/About";
+import NewsArticle from "./pages/NewsArticle";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,6 +35,7 @@ const App = () => (
             <Route path="/buying-guide" element={<BuyingGuide />} />
             <Route path="/top-picks" element={<TopPicks />} />
             <Route path="/about" element={<About />} />
+            <Route path="/news/:slug" element={<NewsArticle />} />
             <Route path="/auth" element={<Auth />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="*" element={<NotFound />} />
