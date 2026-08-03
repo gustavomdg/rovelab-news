@@ -26,7 +26,7 @@ const Issues = () => {
   useSEO({
     title: "All Briefings — RoveLab News",
     description: "Browse every edition of the RoveLab News — weekly furniture intelligence covering sofas, beds, and home trends across Canada and the USA.",
-    url: "/issues",
+    url: "/news",
   });
 
   const [searchParams] = useSearchParams();

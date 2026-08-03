@@ -60,7 +60,7 @@ const Header = () => {
             <Link to="/">Home</Link>
           </Button>
           <Button variant="nav" size="sm" asChild>
-            <Link to="/issues">News</Link>
+            <Link to="/news">News</Link>
           </Button>
           <Button variant="nav" size="sm" asChild>
             <Link to="/about">About</Link>
@@ -109,7 +109,7 @@ const Header = () => {
       {mobileMenuOpen && (
         <div className="md:hidden border-t border-border bg-background p-4 space-y-2">
           <Link to="/" className="block py-2 text-foreground" onClick={() => setMobileMenuOpen(false)}>Home</Link>
-          <Link to="/issues" className="block py-2 text-foreground" onClick={() => setMobileMenuOpen(false)}>News</Link>
+          <Link to="/news" className="block py-2 text-foreground" onClick={() => setMobileMenuOpen(false)}>News</Link>
           <Link to="/about" className="block py-2 text-foreground" onClick={() => setMobileMenuOpen(false)}>About</Link>
           {user && isAdmin && (
             <div className="pt-2 border-t border-border">

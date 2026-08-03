@@ -10,9 +10,6 @@ import Issues from "./pages/Issues";
 import BlogPost from "./pages/BlogPost";
 import Auth from "./pages/Auth";
 import Admin from "./pages/Admin";
-import Trends from "./pages/Trends";
-import BuyingGuide from "./pages/BuyingGuide";
-import TopPicks from "./pages/TopPicks";
 import About from "./pages/About";
 import NewsArticle from "./pages/NewsArticle";
 import NotFound from "./pages/NotFound";
@@ -29,11 +26,9 @@ const App = () => (
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/news" element={<Issues />} />
             <Route path="/issues" element={<Issues />} />
             <Route path="/post/:slug" element={<BlogPost />} />
-            <Route path="/trends" element={<Trends />} />
-            <Route path="/buying-guide" element={<BuyingGuide />} />
-            <Route path="/top-picks" element={<TopPicks />} />
             <Route path="/about" element={<About />} />
             <Route path="/news/:slug" element={<NewsArticle />} />
             <Route path="/auth" element={<Auth />} />

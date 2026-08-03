@@ -46,10 +46,9 @@ const Footer = () => {
           <div>
             <h3 className="font-display font-normal text-primary-foreground mb-4">Navigate</h3>
             <ul className="space-y-2">
-              <li><Link to="/issues" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm">Briefings</Link></li>
-              <li><Link to="/trends" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm">Trends</Link></li>
-              <li><Link to="/buying-guide" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm">Buying Guide</Link></li>
-              <li><Link to="/top-picks" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm">Top Picks</Link></li>
+              <li><Link to="/" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm">Home</Link></li>
+              <li><Link to="/news" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm">News</Link></li>
+              <li><Link to="/about" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm">About</Link></li>
               <li><a href="mailto:po.team@rovelab.com" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm">Advertise</a></li>
             </ul>
           </div>
@@ -73,14 +72,8 @@ const Footer = () => {
 
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <img
-                src="/logo.png"
-                alt="RoveLab News"
-                className="h-8 w-8 rounded-lg object-cover"
-              />
-              <span className="font-display text-primary-foreground">
-                RoveLab News
-              </span>
+              <img src="/rovelab_logo.svg" alt="Rove Lab" className="h-5 w-auto brightness-0 invert" />
+              <span className="font-sans font-light text-primary-foreground/70 text-sm">News</span>
             </div>
             <p className="text-primary-foreground/70 text-sm">
               Weekly furniture intelligence for Canada & USA — by Rove Lab.

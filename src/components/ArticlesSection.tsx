@@ -124,7 +124,7 @@ const ArticlesSection = () => {
             </h2>
           </div>
           <Button variant="ghost" className="text-primary group" asChild>
-            <Link to="/issues">
+            <Link to="/news">
               See all
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
@@ -212,7 +212,7 @@ const ArticlesSection = () => {
 
         <div className="mt-12 text-center">
           <Button variant="subscribe" size="lg" asChild>
-            <Link to="/issues">View all briefings</Link>
+            <Link to="/news">View all briefings</Link>
           </Button>
         </div>
       </div>
