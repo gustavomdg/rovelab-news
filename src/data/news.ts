@@ -1,5 +1,5 @@
 // AUTO-GENERATED — do not edit by hand. Run: node scripts/fetch-news.mjs
-// Last updated: 2026-08-03T02:44:36.721Z
+// Last updated: 2026-08-03T17:07:13.018Z
 
 export interface NewsItem {
   slug: string;
@@ -18,72 +18,72 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
-    slug: `yen-rises-amid-speculation-of-more-intervention-after-u-bloomberg`,
+    slug: `emerging-market-currencies-are-mixed-as-us-iran-tension-bloomberg`,
     source: `Bloomberg`,
     sourceUrl: `https://www.bloomberg.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `MARKET`,
-    title: `Yen Rises Amid Speculation of More Intervention After US Support`,
-    summary: `The yen rallied sharply on Monday amid speculation that authorities may have intervened to prop up the currency again after coordinated action between the US and Japan last…`,
+    title: `Emerging-Market Currencies Are Mixed as US-Iran Tensions Ease`,
+    summary: `Emerging-market currencies were mixed on Monday as investors weighed signs of easing tensions between the US and Iran against the fading appeal for carry trades in Latin…`,
     body: [
-      `The yen rallied sharply on Monday amid speculation that authorities may have intervened to prop up the currency again after coordinated action between the US and Japan last week.`,
+      `Emerging-market currencies were mixed on Monday as investors weighed signs of easing tensions between the US and Iran against the fading appeal for carry trades in Latin America.`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Aug 2, 2026`,
+    date: `Aug 3, 2026`,
     readTime: `2 min read`,
-    url: `https://www.bloomberg.com/news/articles/2026-08-02/yen-traders-brace-for-more-intervention-with-us-at-japan-s-side`,
+    url: `https://www.bloomberg.com/news/articles/2026-08-03/emerging-market-stocks-fall-as-korea-chipmakers-slide-once-again`,
   },
   {
-    slug: `big-tech-earnings-are-sending-valuations-in-wildly-diff-wsj`,
+    slug: `stock-market-today-stocks-rally-oil-slides-on-return-to-wsj`,
     source: `Wall Street Journal`,
     sourceUrl: `https://www.wsj.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `ECONOMY`,
-    title: `Big Tech Earnings Are Sending Valuations in Wildly Different Directions`,
-    summary: `Reports from tech giants drove big gains and losses, while the Fed-fueled bond selloff adds to market…`,
+    title: `Stock Market Today: Stocks Rally, Oil Slides on Return to Mideast Diplomacy`,
+    summary: `Dow jumps 500 points; U.S.-Japan intervention props up…`,
     body: [
-      `Reports from tech giants drove big gains and losses, while the Fed-fueled bond selloff adds to market pressures.`,
+      `Dow jumps 500 points; U.S.-Japan intervention props up yen`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Aug 2, 2026`,
+    date: `Aug 3, 2026`,
     readTime: `2 min read`,
-    url: `https://www.wsj.com/finance/stocks/tech-company-earnings-stock-market-5c4179d8?mod=rss_markets_main`,
+    url: `https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-03-2026?mod=rss_markets_main`,
   },
   {
-    slug: `westjet-flight-attendants-go-on-strike-grounding-600-fl-globe-mail`,
+    slug: `japan-confirms-joint-intervention-with-us-in-bid-to-hal-globe-mail`,
     source: `The Globe and Mail`,
     sourceUrl: `https://www.theglobeandmail.com`,
     flag: `🇨🇦`,
     market: `Canada`,
     tag: `ECONOMY`,
-    title: `WestJet flight attendants go on strike, grounding 600 flights on long weekend`,
-    summary: `Talks between the airline and the union representing 4,400 flight attendants broke down late Saturday over the issue of wages and ground…`,
+    title: `Japan confirms joint intervention with U.S. in bid to halt yen’s slide`,
+    summary: `Japan’s finance ministry confirms rare bilateral action as yen drops to 40-year…`,
     body: [
-      `Talks between the airline and the union representing 4,400 flight attendants broke down late Saturday over the issue of wages and ground pay`,
+      `Japan’s finance ministry confirms rare bilateral action as yen drops to 40-year lows`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
     date: `Aug 2, 2026`,
     readTime: `2 min read`,
-    url: `https://www.theglobeandmail.com/business/article-westjet-flight-attendants-go-on-strike-after-talks-break-down-between/`,
+    url: `https://www.theglobeandmail.com/world/article-japan-us-yen-currency/`,
   },
   {
-    slug: `india8217s-ipo-boom-cools-as-weak-markets-force-issuers-financial-post`,
+    slug: `tankers-take-oil-from-key-kazakh-export-terminal-after-financial-post`,
     source: `Financial Post`,
     sourceUrl: `https://financialpost.com`,
     flag: `🇨🇦`,
     market: `Canada`,
     tag: `RETAIL`,
-    title: `India&#8217;s IPO Boom Cools as Weak Markets Force Issuers to Cut Back`,
-    summary: `India’s initial public offering boom is fading, with proceeds down by a fifth from a year earlier as companies cut deal sizes, accept lower valuations and delay listings, raising doubts about sustaining momentum after…`,
+    title: `Tankers Take Oil From Key Kazakh Export Terminal After Attacks`,
+    summary: `Four tankers have completed loadings at a Black Sea port that’s crucial to Kazakhstan’s crude exports in recent days, after a run of attacks disrupted shipping in the…`,
     body: [
-      `India’s initial public offering boom is fading, with proceeds down by a fifth from a year earlier as companies cut deal sizes, accept lower valuations and delay listings, raising doubts about sustaining momentum after two record years.`,
+      `Four tankers have completed loadings at a Black Sea port that’s crucial to Kazakhstan’s crude exports in recent days, after a run of attacks disrupted shipping in the area.`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Aug 2, 2026`,
+    date: `Aug 3, 2026`,
     readTime: `2 min read`,
-    url: `https://financialpost.com/pmn/business-pmn/indias-ipo-boom-cools-as-weak-markets-force-issuers-to-cut-back`,
+    url: `https://financialpost.com/pmn/business-pmn/tankers-take-oil-from-key-kazakh-export-terminal-after-attacks`,
   },
 ];
 
