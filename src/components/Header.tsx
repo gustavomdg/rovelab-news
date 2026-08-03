@@ -46,12 +46,12 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
       <div className="container flex h-16 items-center">
         <Link to="/" className="flex items-center gap-2 group">
-          <div className="h-9 w-9 rounded-md bg-foreground flex items-center justify-center flex-shrink-0">
-            <span className="text-background font-bold text-xs tracking-tight leading-none">RL</span>
-          </div>
-          <span className="font-sans font-semibold text-base text-foreground leading-tight tracking-widest uppercase">
-            Rove Lab <span className="font-light text-primary normal-case tracking-normal text-sm">News</span>
-          </span>
+          <img
+            src="/rovelab_logo.svg"
+            alt="Rove Lab"
+            className="h-6 w-auto dark:invert"
+          />
+          <span className="font-sans font-light text-primary text-sm tracking-normal">News</span>
         </Link>
 
         {/* Desktop Nav */}
