@@ -64,7 +64,7 @@ const Hero = () => {
           {/* Title */}
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-normal mb-10 animate-fade-in leading-tight" style={{ animationDelay: '0.1s' }}>
             Furniture.{" "}
-            <span className="text-gradient italic">What's happening this week.</span>
+            <span className="text-gradient italic">What's happening this week</span>
           </h1>
 
           {/* Featured news grid — editorial layout */}

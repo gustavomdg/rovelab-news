@@ -57,21 +57,13 @@ const Header = () => {
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-1 flex-1 justify-center">
           <Button variant="nav" size="sm" asChild>
-            <Link to="/issues">Issues</Link>
+            <Link to="/">Home</Link>
           </Button>
           <Button variant="nav" size="sm" asChild>
-            <Link to="/trends">Trends</Link>
+            <Link to="/issues">News</Link>
           </Button>
           <Button variant="nav" size="sm" asChild>
-            <Link to="/buying-guide">Buying Guide</Link>
-          </Button>
-          <Button variant="nav" size="sm" asChild>
-            <Link to="/top-picks">Top Picks</Link>
-          </Button>
-          <Button variant="nav" size="sm" asChild>
-            <a href="mailto:po.team@rovelab.com">
-              Advertise
-            </a>
+            <Link to="/about">About</Link>
           </Button>
         </nav>
 
@@ -116,17 +108,9 @@ const Header = () => {
 
       {mobileMenuOpen && (
         <div className="md:hidden border-t border-border bg-background p-4 space-y-2">
-          <Link to="/issues" className="block py-2 text-foreground" onClick={() => setMobileMenuOpen(false)}>Issues</Link>
-          <Link to="/trends" className="block py-2 text-foreground" onClick={() => setMobileMenuOpen(false)}>Trends</Link>
-          <Link to="/buying-guide" className="block py-2 text-foreground" onClick={() => setMobileMenuOpen(false)}>Buying Guide</Link>
-          <Link to="/top-picks" className="block py-2 text-foreground" onClick={() => setMobileMenuOpen(false)}>Top Picks</Link>
-          <a
-            href="mailto:po.team@rovelab.com"
-            className="block py-2 text-foreground"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Advertise
-          </a>
+          <Link to="/" className="block py-2 text-foreground" onClick={() => setMobileMenuOpen(false)}>Home</Link>
+          <Link to="/issues" className="block py-2 text-foreground" onClick={() => setMobileMenuOpen(false)}>News</Link>
+          <Link to="/about" className="block py-2 text-foreground" onClick={() => setMobileMenuOpen(false)}>About</Link>
           {user && isAdmin && (
             <div className="pt-2 border-t border-border">
               <Link to="/admin" className="block py-2 text-primary font-medium" onClick={() => setMobileMenuOpen(false)}>
