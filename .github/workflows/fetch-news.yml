@@ -2,8 +2,8 @@ name: Weekly News Fetch
 
 on:
   schedule:
-    # Every Monday at 10:00 AM EST (15:00 UTC)
-    - cron: '0 15 * * 1'
+    # Monday, Wednesday, Friday at 10:00 AM EST (15:00 UTC)
+    - cron: '0 15 * * 1,3,5'
   workflow_dispatch: # allow manual trigger from GitHub UI
 
 permissions:
