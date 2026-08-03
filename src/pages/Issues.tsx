@@ -24,7 +24,7 @@ interface Post {
 
 const Issues = () => {
   useSEO({
-    title: "All Issues — RoveLab News",
+    title: "All Briefings — RoveLab News",
     description: "Browse every edition of the RoveLab News — weekly furniture intelligence covering sofas, beds, and home trends across Canada and the USA.",
     url: "/issues",
   });
@@ -156,7 +156,7 @@ const Issues = () => {
         <div className="container">
           <div className="text-center mb-12">
             <h1 className="font-display text-4xl md:text-5xl text-foreground mb-4">
-              All <span className="text-primary italic">Issues</span>
+              All <span className="text-primary italic">Briefings</span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Every edition of the RoveLab News — furniture intelligence for Canada & USA, delivered weekly.
@@ -168,7 +168,7 @@ const Issues = () => {
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
               <Input
                 type="text"
-                placeholder="Search issues by title or topic..."
+                placeholder="Search briefings by title or topic..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="pl-12 h-12 text-base"
@@ -227,14 +227,14 @@ const Issues = () => {
               )}
 
               <div className="ml-auto text-sm text-muted-foreground">
-                {filteredPosts.length} {filteredPosts.length === 1 ? "issue" : "issues"}
+                {filteredPosts.length} {filteredPosts.length === 1 ? "briefing" : "briefings"}
               </div>
             </div>
           </div>
 
           {loading && (
             <div className="text-center py-20">
-              <div className="animate-pulse text-muted-foreground">Loading issues...</div>
+              <div className="animate-pulse text-muted-foreground">Loading briefings...</div>
             </div>
           )}
 
@@ -243,7 +243,7 @@ const Issues = () => {
               <div className="h-16 w-16 rounded-full bg-muted flex items-center justify-center mx-auto mb-4">
                 <Search className="h-8 w-8 text-muted-foreground" />
               </div>
-              <h3 className="font-display text-xl mb-2">No issues found</h3>
+              <h3 className="font-display text-xl mb-2">No briefings found</h3>
               <p className="text-muted-foreground mb-6">Try adjusting your filters or search terms.</p>
               {hasActiveFilters && (
                 <Button variant="outline" onClick={clearFilters}>Clear filters</Button>
@@ -262,7 +262,7 @@ const Issues = () => {
                     </div>
                     <div className="flex-1 h-px bg-border" />
                     <span className="text-sm text-muted-foreground">
-                      {group.posts.length} {group.posts.length === 1 ? "issue" : "issues"}
+                      {group.posts.length} {group.posts.length === 1 ? "briefing" : "briefings"}
                     </span>
                   </div>
 

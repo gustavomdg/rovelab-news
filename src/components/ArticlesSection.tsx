@@ -94,7 +94,7 @@ const ArticlesSection = () => {
     return (
       <section className="py-16 md:py-24">
         <div className="container text-center">
-          <div className="animate-pulse text-muted-foreground">Loading issues...</div>
+          <div className="animate-pulse text-muted-foreground">Loading briefings...</div>
         </div>
       </section>
     );
@@ -105,9 +105,9 @@ const ArticlesSection = () => {
       <section className="py-16 md:py-24">
         <div className="container text-center">
           <h2 className="font-display font-bold text-xl md:text-2xl text-primary mb-4">
-            LATEST ISSUES
+            THIS WEEK'S BRIEFINGS
           </h2>
-          <p className="text-muted-foreground">No issues published yet.</p>
+          <p className="text-muted-foreground">No briefings published yet.</p>
         </div>
       </section>
     );
@@ -120,7 +120,7 @@ const ArticlesSection = () => {
           <div className="flex items-center gap-2">
             <Clock className="h-5 w-5 text-primary" />
             <h2 className="font-display font-bold text-xl md:text-2xl text-primary">
-              LATEST ISSUES
+              THIS WEEK'S BRIEFINGS
             </h2>
           </div>
           <Button variant="ghost" className="text-primary group" asChild>
@@ -212,7 +212,7 @@ const ArticlesSection = () => {
 
         <div className="mt-12 text-center">
           <Button variant="subscribe" size="lg" asChild>
-            <Link to="/issues">View all issues</Link>
+            <Link to="/issues">View all briefings</Link>
           </Button>
         </div>
       </div>

@@ -46,7 +46,7 @@ const Footer = () => {
           <div>
             <h3 className="font-display font-normal text-primary-foreground mb-4">Navigate</h3>
             <ul className="space-y-2">
-              <li><Link to="/issues" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm">Issues</Link></li>
+              <li><Link to="/issues" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm">Briefings</Link></li>
               <li><Link to="/trends" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm">Trends</Link></li>
               <li><Link to="/buying-guide" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm">Buying Guide</Link></li>
               <li><Link to="/top-picks" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm">Top Picks</Link></li>
