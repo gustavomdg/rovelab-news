@@ -3,48 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Sofa, Loader2, ChevronDown, MapPin } from "lucide-react";
 import { useNewsletter } from "@/hooks/useNewsletter";
-
-const featuredNews = [
-  {
-    source: "Bloomberg",
-    flag: "🇺🇸",
-    market: "United States",
-    tag: "MARKET",
-    title: "Oil Slumps, US Futures Rise on Iran Talks Optimism",
-    summary: "Oil fell as much as 7.3% after Trump called off a planned strike on Iran and agreed to diplomatic talks. OPEC+ simultaneously increased quotas — erasing much of Brent crude's near-25% surge in July.",
-    date: "Aug 2, 2026",
-    readTime: "4 min read",
-    url: "https://www.bloomberg.com",
-    slug: "oil-slumps-iran-talks-bloomberg",
-    featured: true,
-  },
-  {
-    source: "Globe and Mail",
-    flag: "🇨🇦",
-    market: "Canada",
-    tag: "ECONOMY",
-    title: "WestJet Strike Strands Travellers on Long Weekend",
-    summary: "WestJet's 4,400 flight attendants walked off the job after failed contract talks, cancelling ~600 flights and stranding 250,000 passengers at peak summer travel.",
-    date: "Aug 2, 2026",
-    readTime: "4 min read",
-    url: "https://www.theglobeandmail.com",
-    slug: "westjet-strike-long-weekend",
-    featured: false,
-  },
-  {
-    source: "Financial Post",
-    flag: "🇨🇦",
-    market: "Canada",
-    tag: "RETAIL",
-    title: "WestJet Strike Hits Canada's Busiest Summer Weekend",
-    summary: "Canada's second-largest airline was halted as CUPE members demanded pay for ground time. The strike drew sharp criticism from business groups across the country.",
-    date: "Aug 2, 2026",
-    readTime: "4 min read",
-    url: "https://financialpost.com",
-    slug: "westjet-strike-financial-post",
-    featured: false,
-  },
-];
+import { newsItems } from "@/data/news";
 
 const Hero = () => {
   const { email, setEmail, isLoading, handleSubscribe } = useNewsletter("hero");
@@ -90,7 +49,7 @@ const Hero = () => {
 
               {/* Featured story */}
               {(() => {
-                const item = featuredNews[0];
+                const item = newsItems[0];
                 return (
                   <Link to={`/news/${item.slug}`} className="group cursor-pointer pb-5 sm:pb-0 sm:pr-6 block">
                     <div className="flex items-center gap-2 mb-3">
@@ -119,7 +78,7 @@ const Hero = () => {
 
               {/* Secondary stories */}
               <div className="flex flex-col gap-0 sm:pl-6">
-                {featuredNews.slice(1).map((item, i) => (
+                {newsItems.slice(1, 3).map((item, i) => (
                   <Link key={i} to={`/news/${item.slug}`} className="group cursor-pointer block">
                     {i > 0 && <div className="h-px bg-border my-4" />}
                     <div className="flex items-center gap-2 mb-2">
@@ -142,6 +101,16 @@ const Hero = () => {
                 ))}
               </div>
             </div>
+          </div>
+
+          {/* Read More CTA */}
+          <div className="w-full max-w-3xl flex justify-end mb-2 animate-fade-in" style={{ animationDelay: '0.28s' }}>
+            <Link
+              to="/news"
+              className="inline-flex items-center gap-1.5 text-sm text-primary hover:text-foreground transition-colors font-medium"
+            >
+              Read more briefings →
+            </Link>
           </div>
 
           {/* Subscription form */}
