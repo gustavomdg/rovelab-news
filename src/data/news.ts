@@ -1,5 +1,5 @@
 // AUTO-GENERATED — do not edit by hand. Run: node scripts/fetch-news.mjs
-// Last updated: 2026-08-14T15:47:04.930Z
+// Last updated: 2026-08-17T15:21:02.587Z
 
 export interface NewsItem {
   slug: string;
@@ -18,72 +18,72 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
-    slug: `dollar-touches-lowest-since-may-as-retail-data-dims-fed-bloomberg`,
+    slug: `copper-squeeze-builds-with-spreads-surging-and-price-ne-bloomberg`,
     source: `Bloomberg`,
     sourceUrl: `https://www.bloomberg.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `MARKET`,
-    title: `Dollar Touches Lowest Since May as Retail Data Dims Fed Bets`,
-    summary: `The dollar fell to the lowest since May after an unexpectedly weak report on US retail sales dimmed expectations for an interest-rate hike from the Federal…`,
+    title: `Copper Squeeze Builds With Spreads Surging and Price Near Record`,
+    summary: `Copper rose toward a record on the London Metal Exchange, with soaring price spreads highlighting an increasingly acute squeeze in near-term…`,
     body: [
-      `The dollar fell to the lowest since May after an unexpectedly weak report on US retail sales dimmed expectations for an interest-rate hike from the Federal Reserve.`,
+      `Copper rose toward a record on the London Metal Exchange, with soaring price spreads highlighting an increasingly acute squeeze in near-term supply.`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Aug 14, 2026`,
+    date: `Aug 17, 2026`,
     readTime: `2 min read`,
-    url: `https://www.bloomberg.com/news/articles/2026-08-14/dollar-slides-to-may-low-as-weak-retail-sales-dim-rate-bets`,
+    url: `https://www.bloomberg.com/news/articles/2026-08-17/copper-heads-toward-record-high-on-lme-as-supply-tensions-build`,
   },
   {
-    slug: `stock-market-today-sp-slips-back-from-records-wsj`,
+    slug: `stock-market-today-ai-enthusiasm-fails-to-lift-indexes-wsj`,
     source: `Wall Street Journal`,
     sourceUrl: `https://www.wsj.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `ECONOMY`,
-    title: `Stock Market Today: S&P Slips Back From Records`,
-    summary: `U.S. retail sales slid in…`,
+    title: `Stock Market Today: AI Enthusiasm Fails to Lift Indexes`,
+    summary: `This week brings earnings from Target, Walmart and…`,
     body: [
-      `U.S. retail sales slid in July`,
+      `This week brings earnings from Target, Walmart and others`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Aug 14, 2026`,
+    date: `Aug 17, 2026`,
     readTime: `2 min read`,
-    url: `https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-14-2026?mod=rss_markets_main`,
+    url: `https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-17-2026?mod=rss_markets_main`,
   },
   {
-    slug: `fairfax-financial-sells-out-of-blackberry-after-16-year-globe-mail`,
+    slug: `areas-outside-toronto-among-most-distressed-parts-of-ca-globe-mail`,
     source: `The Globe and Mail`,
     sourceUrl: `https://www.theglobeandmail.com`,
     flag: `🇨🇦`,
     market: `Canada`,
     tag: `ECONOMY`,
-    title: `Fairfax Financial sells out of BlackBerry after 16 years, booking loss of at least $288-million`,
-    summary: `Financial conglomerate exits stock just as Canadian tech stalwart is taking off…`,
+    title: `Areas outside Toronto among most distressed parts of Canada’s condo market, data show`,
+    summary: `Glut of unsold preconstruction condos in Ontario is concentrated in Vaughan Metropolitan Centre, downtown…`,
     body: [
-      `Financial conglomerate exits stock just as Canadian tech stalwart is taking off again`,
+      `Glut of unsold preconstruction condos in Ontario is concentrated in Vaughan Metropolitan Centre, downtown Hamilton`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Aug 14, 2026`,
+    date: `Aug 17, 2026`,
     readTime: `2 min read`,
-    url: `https://www.theglobeandmail.com/business/article-fairfax-financial-sells-out-of-blackberry-at-a-steep-loss/`,
+    url: `https://www.theglobeandmail.com/business/article-areas-outside-toronto-distressed-canadas-condo-market-data-show/`,
   },
   {
-    slug: `court-approves-45-million-settlement-in-westjet-flight-financial-post`,
+    slug: `8216this-one-is-personal8217-rbc-becomes-sponsor-of-rya-financial-post`,
     source: `Financial Post`,
     sourceUrl: `https://financialpost.com`,
     flag: `🇨🇦`,
     market: `Canada`,
     tag: `RETAIL`,
-    title: `Court approves $4.5 million settlement in WestJet flight attendant harassment suit, says law firm`,
-    summary: `Class action could award about $470 to each eligible employee, say…`,
+    title: `&#8216;This one is personal&#8217;: RBC becomes sponsor of Ryan Reynolds&#8217; Wrexham AFC soccer team`,
+    summary: `Wrexham currently plays in the Championship division, England's second-tier…`,
     body: [
-      `Class action could award about $470 to each eligible employee, say lawyers`,
+      `Wrexham currently plays in the Championship division, England's second-tier league`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Aug 14, 2026`,
+    date: `Aug 17, 2026`,
     readTime: `2 min read`,
-    url: `https://financialpost.com/transportation/airlines/court-approves-4-5-million-settlement-in-westjet-flight-attendant-harassment-suit-says-law-firm`,
+    url: `https://financialpost.com/fp-finance/banking/rbc-sponsor-ryan-reynolds-wrexham-afc-soccer`,
   },
 ];
 
