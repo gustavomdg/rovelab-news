@@ -1,5 +1,5 @@
 // AUTO-GENERATED — do not edit by hand. Run: node scripts/fetch-news.mjs
-// Last updated: 2026-09-21T19:51:09.748Z
+// Last updated: 2026-09-23T18:48:15.406Z
 
 export interface NewsItem {
   slug: string;
@@ -18,72 +18,72 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
-    slug: `meta-tech-stocks-lift-sp-500-to-best-day-since-august-bloomberg`,
+    slug: `us-bond-market-slide-deepens-pushing-yields-to-two-deca-bloomberg`,
     source: `Bloomberg`,
     sourceUrl: `https://www.bloomberg.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `MARKET`,
-    title: `Meta, Tech Stocks Lift S&P 500 to Best Day Since August`,
-    summary: `Strength in the tech sector lifted US stock benchmarks toward their best session since early August as oil prices slide and officials signaled optimism about a summit between US President Donald Trump and China’s Xi…`,
+    title: `US Bond-Market Slide Deepens, Pushing Yields to Two-Decade Highs`,
+    summary: `The losses in the US Treasuries market intensified on Wednesday as robust economic data and a weak auction drove yields across most maturities to the highest levels in almost two…`,
     body: [
-      `Strength in the tech sector lifted US stock benchmarks toward their best session since early August as oil prices slide and officials signaled optimism about a summit between US President Donald Trump and China’s Xi Jinping this week.`,
+      `The losses in the US Treasuries market intensified on Wednesday as robust economic data and a weak auction drove yields across most maturities to the highest levels in almost two decades.`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Sep 21, 2026`,
+    date: `Sep 23, 2026`,
     readTime: `2 min read`,
-    url: `https://www.bloomberg.com/news/articles/2026-09-21/us-stock-futures-climb-ahead-of-trump-xi-meeting-as-oil-slips`,
+    url: `https://www.bloomberg.com/news/articles/2026-09-23/us-treasury-five-year-yields-breach-5-for-first-time-since-2007`,
   },
   {
-    slug: `stock-market-today-drop-in-oil-prices-unlocks-rally-in-wsj`,
+    slug: `stock-market-today-treasury-selloff-deepens-sending-10-wsj`,
     source: `Wall Street Journal`,
     sourceUrl: `https://www.wsj.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `ECONOMY`,
-    title: `Stock Market Today: Drop in Oil Prices Unlocks Rally in Tech Shares`,
-    summary: `Nasdaq jumps 2% toward record, Brent crude trades back down to…`,
+    title: `Stock Market Today: Treasury Selloff Deepens, Sending 10-Year Yield Above 5.1%`,
+    summary: `Sharp yield rise comes as oil prices climb and inflation concerns build; Nasdaq…`,
     body: [
-      `Nasdaq jumps 2% toward record, Brent crude trades back down to $100`,
+      `Sharp yield rise comes as oil prices climb and inflation concerns build; Nasdaq falls`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Sep 21, 2026`,
+    date: `Sep 23, 2026`,
     readTime: `2 min read`,
-    url: `https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-21-2026?mod=rss_markets_main`,
+    url: `https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-23-2026?mod=rss_markets_main`,
   },
   {
-    slug: `ontario-fines-stubhub-20000-under-new-law-capping-ticke-globe-mail`,
+    slug: `toronto-tech-conference-speakers-highlight-need-for-mor-globe-mail`,
     source: `The Globe and Mail`,
     sourceUrl: `https://www.theglobeandmail.com`,
     flag: `🇨🇦`,
     market: `Canada`,
     tag: `ECONOMY`,
-    title: `Ontario fines StubHub $20,000 under new law capping ticket resale prices`,
-    summary: `Provincial website does not specify what events the penalties were linked…`,
+    title: `Toronto tech conference speakers highlight need for more domestic investment`,
+    summary: `Panelists Vass Bednar and Tal Schwartz called on Ottawa, investors to support Canadian companies at the gathering formerly known as…`,
     body: [
-      `Provincial website does not specify what events the penalties were linked to`,
+      `Panelists Vass Bednar and Tal Schwartz called on Ottawa, investors to support Canadian companies at the gathering formerly known as Elevate`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Sep 21, 2026`,
+    date: `Sep 23, 2026`,
     readTime: `2 min read`,
-    url: `https://www.theglobeandmail.com/business/article-ontario-fines-stubhub-20000-under-new-law-capping-ticket-resale-prices/`,
+    url: `https://www.theglobeandmail.com/business/article-torontos-elevate-tech-conference-to-rebrand-as-nrth/`,
   },
   {
-    slug: `bitcoin-jumps-to-over-us84800-after-etf-flows-turn-posi-financial-post`,
+    slug: `a-canadian-who-lived-abroad-thought-she-followed-tfsa-c-financial-post`,
     source: `Financial Post`,
     sourceUrl: `https://financialpost.com`,
     flag: `🇨🇦`,
     market: `Canada`,
     tag: `RETAIL`,
-    title: `Bitcoin jumps to over US$84,800 after ETF flows turn positive`,
-    summary: `'The crypto market capitalization has risen to US$2.8 trillion, its highest level since the end of January this…`,
+    title: `A Canadian who lived abroad thought she followed TFSA contribution rules, but CRA surprised her with a penalty tax`,
+    summary: `Jamie Golombek: Misunderstood non-residency rules and waiting too long to fix her overcontribution cost her any chance at…`,
     body: [
-      `'The crypto market capitalization has risen to US$2.`,
+      `Jamie Golombek: Misunderstood non-residency rules and waiting too long to fix her overcontribution cost her any chance at relief`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Sep 21, 2026`,
+    date: `Sep 23, 2026`,
     readTime: `2 min read`,
-    url: `https://financialpost.com/fp-finance/cryptocurrency/bitcoin-jumps-after-etf-flows-turn-positive`,
+    url: `https://financialpost.com/personal-finance/canadian-lived-abroad-tfsa-contribution-rules-cra-penalty-tax`,
   },
 ];
 
