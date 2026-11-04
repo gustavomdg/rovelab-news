@@ -1,5 +1,5 @@
 // AUTO-GENERATED — do not edit by hand. Run: node scripts/fetch-news.mjs
-// Last updated: 2026-11-02T22:59:05.735Z
+// Last updated: 2026-11-04T21:02:01.059Z
 
 export interface NewsItem {
   slug: string;
@@ -18,55 +18,55 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
-    slug: `nasdaq-slide-clouds-asian-open-oil-falls-on-iran-market-bloomberg`,
+    slug: `wall-street-revises-treasury-sales-forecasts-on-guidanc-bloomberg`,
     source: `Bloomberg`,
     sourceUrl: `https://www.bloomberg.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `MARKET`,
-    title: `Nasdaq Slide Clouds Asian Open, Oil Falls on Iran: Markets Wrap`,
-    summary: `Asian technology stocks looked set for losses Tuesday after a selloff in US chipmakers deepened, overshadowing a plunge in oil prices on hopes for diplomatic progress toward ending the war in…`,
+    title: `Wall Street Revises Treasury Sales Forecasts on Guidance Revamp`,
+    summary: `Wall Street strategists are rejigging forecasts for US borrowing next year after the Treasury signaled that changes to auction sizes for notes and bonds are on the…`,
     body: [
-      `Asian technology stocks looked set for losses Tuesday after a selloff in US chipmakers deepened, overshadowing a plunge in oil prices on hopes for diplomatic progress toward ending the war in Iran.`,
+      `Wall Street strategists are rejigging forecasts for US borrowing next year after the Treasury signaled that changes to auction sizes for notes and bonds are on the horizon.`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 2, 2026`,
+    date: `Nov 4, 2026`,
     readTime: `2 min read`,
-    url: `https://www.bloomberg.com/news/articles/2026-11-02/stock-market-today-dow-s-p-live-updates`,
+    url: `https://www.bloomberg.com/news/articles/2026-11-04/wall-street-revises-treasury-sales-forecasts-on-guidance-revamp`,
   },
   {
-    slug: `stock-market-today-apple-stock-slips-after-earnings-nas-wsj`,
+    slug: `stock-market-today-dow-jumps-more-than-1500-points-oil-wsj`,
     source: `Wall Street Journal`,
     sourceUrl: `https://www.wsj.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `ECONOMY`,
-    title: `Stock Market Today: Apple Stock Slips After Earnings; Nasdaq Falls`,
-    summary: `Oil slides amid signs U.S., Iran could consider…`,
+    title: `Stock Market Today: Dow Jumps More Than 1,500 Points, Oil Slides After Democrats Sweep Congress`,
+    summary: `Crude drops 8% on hopes of Iran war ending; Nasdaq, S&P 500…`,
     body: [
-      `Oil slides amid signs U.S., Iran could consider diplomacy`,
+      `Crude drops 8% on hopes of Iran war ending; Nasdaq, S&P 500 rally`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 2, 2026`,
+    date: `Nov 4, 2026`,
     readTime: `2 min read`,
-    url: `https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-02-2026?mod=rss_markets_main`,
+    url: `https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-04-2026?mod=rss_markets_main`,
   },
   {
-    slug: `canada-must-stand-with-europe-against-us-big-tech-globe-mail`,
+    slug: `what-role-did-the-canada-us-trade-war-play-in-some-key-globe-mail`,
     source: `The Globe and Mail`,
     sourceUrl: `https://www.theglobeandmail.com`,
     flag: `🇨🇦`,
     market: `Canada`,
     tag: `ECONOMY`,
-    title: `Canada must stand with Europe against U.S. Big Tech`,
-    summary: `Ottawa has a great opportunity to collaborate with the EU on tech and regulations at upcoming…`,
+    title: `What role did the Canada-U.S. trade war play in some key midterm races?`,
+    summary: `Tariffs have caused economic strain in five tossup states that were up for grabs in the…`,
     body: [
-      `Ottawa has a great opportunity to collaborate with the EU on tech and regulations at upcoming summit`,
+      `Tariffs have caused economic strain in five tossup states that were up for grabs in the Senate`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Oct 26, 2026`,
+    date: `Nov 4, 2026`,
     readTime: `2 min read`,
-    url: `https://www.theglobeandmail.com/business/commentary/article-canada-must-stand-with-europe-against-us-big-tech/`,
+    url: `https://www.theglobeandmail.com/business/article-canada-us-trade-tariffs-midterms-michigan-texas/`,
   },
 ];
 
