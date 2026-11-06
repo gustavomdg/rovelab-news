@@ -1,5 +1,5 @@
 // AUTO-GENERATED — do not edit by hand. Run: node scripts/fetch-news.mjs
-// Last updated: 2026-11-04T21:02:01.059Z
+// Last updated: 2026-11-06T20:40:51.894Z
 
 export interface NewsItem {
   slug: string;
@@ -18,55 +18,56 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
-    slug: `wall-street-revises-treasury-sales-forecasts-on-guidanc-bloomberg`,
+    slug: `copper-moves-lower-as-us-election-undermines-ai-and-tar-bloomberg`,
     source: `Bloomberg`,
     sourceUrl: `https://www.bloomberg.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `MARKET`,
-    title: `Wall Street Revises Treasury Sales Forecasts on Guidance Revamp`,
-    summary: `Wall Street strategists are rejigging forecasts for US borrowing next year after the Treasury signaled that changes to auction sizes for notes and bonds are on the…`,
+    title: `Copper Moves Lower as US Election Undermines AI and Tariff Trade`,
+    summary: `Copper slumped to its lowest since July as a political shakeup in Washington threatened to blunt two key bullish drivers: the rapid buildout of AI infrastructure, and the risk of US import tariffs on the…`,
     body: [
-      `Wall Street strategists are rejigging forecasts for US borrowing next year after the Treasury signaled that changes to auction sizes for notes and bonds are on the horizon.`,
+      `Copper slumped to its lowest since July as a political shakeup in Washington threatened to blunt two key bullish drivers: the rapid buildout of AI infrastructure, and the risk of US import tariffs on the metal.`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 4, 2026`,
+    date: `Nov 6, 2026`,
     readTime: `2 min read`,
-    url: `https://www.bloomberg.com/news/articles/2026-11-04/wall-street-revises-treasury-sales-forecasts-on-guidance-revamp`,
+    url: `https://www.bloomberg.com/news/articles/2026-11-06/copper-moves-lower-as-us-election-undermines-ai-and-tariff-trade`,
   },
   {
-    slug: `stock-market-today-dow-jumps-more-than-1500-points-oil-wsj`,
+    slug: `stock-market-today-ai-stocks-rebound-after-brutal-week-wsj`,
     source: `Wall Street Journal`,
     sourceUrl: `https://www.wsj.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `ECONOMY`,
-    title: `Stock Market Today: Dow Jumps More Than 1,500 Points, Oil Slides After Democrats Sweep Congress`,
-    summary: `Crude drops 8% on hopes of Iran war ending; Nasdaq, S&P 500…`,
+    title: `Stock Market Today: AI Stocks Rebound After Brutal Week for Nasdaq`,
+    summary: `Tech stocks narrow yesterday&apos;s losses; Dow lags…`,
     body: [
-      `Crude drops 8% on hopes of Iran war ending; Nasdaq, S&P 500 rally`,
+      `Tech stocks narrow yesterday&apos;s losses; Dow lags behind`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 4, 2026`,
+    date: `Nov 6, 2026`,
     readTime: `2 min read`,
-    url: `https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-04-2026?mod=rss_markets_main`,
+    url: `https://www.wsj.com/livecoverage/october-jobs-report-stock-market-11-06-2026?mod=rss_markets_main`,
   },
   {
-    slug: `what-role-did-the-canada-us-trade-war-play-in-some-key-globe-mail`,
+    slug: `for-oil-markets-trump-is-anything-but-a-lame-duck-globe-mail`,
     source: `The Globe and Mail`,
     sourceUrl: `https://www.theglobeandmail.com`,
     flag: `🇨🇦`,
     market: `Canada`,
     tag: `ECONOMY`,
-    title: `What role did the Canada-U.S. trade war play in some key midterm races?`,
-    summary: `Tariffs have caused economic strain in five tossup states that were up for grabs in the…`,
+    title: `For oil markets, Trump is anything but a lame duck`,
+    summary: `After his party took a drubbing in the midterms, angry U.S. President may well turn to Iran to lash…`,
     body: [
-      `Tariffs have caused economic strain in five tossup states that were up for grabs in the Senate`,
+      `After his party took a drubbing in the midterms, angry U.`,
+      `S.`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 4, 2026`,
+    date: `Nov 6, 2026`,
     readTime: `2 min read`,
-    url: `https://www.theglobeandmail.com/business/article-canada-us-trade-tariffs-midterms-michigan-texas/`,
+    url: `https://www.theglobeandmail.com/business/commentary/article-for-oil-markets-trump-is-anything-but-a-lame-duck/`,
   },
 ];
 
