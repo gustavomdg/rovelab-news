@@ -1,5 +1,5 @@
 // AUTO-GENERATED — do not edit by hand. Run: node scripts/fetch-news.mjs
-// Last updated: 2026-11-06T20:40:51.894Z
+// Last updated: 2026-11-09T23:40:46.676Z
 
 export interface NewsItem {
   slug: string;
@@ -18,56 +18,55 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
-    slug: `copper-moves-lower-as-us-election-undermines-ai-and-tar-bloomberg`,
+    slug: `asian-stocks-to-rally-on-us-tech-surge-oil-slump-market-bloomberg`,
     source: `Bloomberg`,
     sourceUrl: `https://www.bloomberg.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `MARKET`,
-    title: `Copper Moves Lower as US Election Undermines AI and Tariff Trade`,
-    summary: `Copper slumped to its lowest since July as a political shakeup in Washington threatened to blunt two key bullish drivers: the rapid buildout of AI infrastructure, and the risk of US import tariffs on the…`,
+    title: `Asian Stocks to Rally on US Tech Surge, Oil Slump: Markets Wrap`,
+    summary: `Asian stocks were poised to track Wall Street higher as a rally in technology shares and a slump in oil prices drove US benchmarks to their best day in seven…`,
     body: [
-      `Copper slumped to its lowest since July as a political shakeup in Washington threatened to blunt two key bullish drivers: the rapid buildout of AI infrastructure, and the risk of US import tariffs on the metal.`,
+      `Asian stocks were poised to track Wall Street higher as a rally in technology shares and a slump in oil prices drove US benchmarks to their best day in seven months.`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 6, 2026`,
+    date: `Nov 9, 2026`,
     readTime: `2 min read`,
-    url: `https://www.bloomberg.com/news/articles/2026-11-06/copper-moves-lower-as-us-election-undermines-ai-and-tariff-trade`,
+    url: `https://www.bloomberg.com/news/articles/2026-11-09/stock-market-today-dow-s-p-live-updates`,
   },
   {
-    slug: `stock-market-today-ai-stocks-rebound-after-brutal-week-wsj`,
+    slug: `stock-market-today-nvidia-stock-slides-after-chip-maker-wsj`,
     source: `Wall Street Journal`,
     sourceUrl: `https://www.wsj.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `ECONOMY`,
-    title: `Stock Market Today: AI Stocks Rebound After Brutal Week for Nasdaq`,
-    summary: `Tech stocks narrow yesterday&apos;s losses; Dow lags…`,
+    title: `Stock Market Today: Nvidia Stock Slides After Chip Maker Opens Probe`,
+    summary: `Dow jumps more than 1,100 points, Nasdaq rallies as stocks rebound after last week&apos;s…`,
     body: [
-      `Tech stocks narrow yesterday&apos;s losses; Dow lags behind`,
+      `Dow jumps more than 1,100 points, Nasdaq rallies as stocks rebound after last week&apos;s rout`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 6, 2026`,
+    date: `Nov 9, 2026`,
     readTime: `2 min read`,
-    url: `https://www.wsj.com/livecoverage/october-jobs-report-stock-market-11-06-2026?mod=rss_markets_main`,
+    url: `https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-09-2026?mod=rss_markets_main`,
   },
   {
-    slug: `for-oil-markets-trump-is-anything-but-a-lame-duck-globe-mail`,
+    slug: `honda-to-retool-ontario-plant-as-part-of-867-million-go-globe-mail`,
     source: `The Globe and Mail`,
     sourceUrl: `https://www.theglobeandmail.com`,
     flag: `🇨🇦`,
     market: `Canada`,
     tag: `ECONOMY`,
-    title: `For oil markets, Trump is anything but a lame duck`,
-    summary: `After his party took a drubbing in the midterms, angry U.S. President may well turn to Iran to lash…`,
+    title: `Honda to retool Ontario plant as part of $867-million, government-backed plan`,
+    summary: `Carmaker will invest $166-million to restart engine production in Alliston; federal and Ontario governments to provide $313-million and $156-million,…`,
     body: [
-      `After his party took a drubbing in the midterms, angry U.`,
-      `S.`,
+      `Carmaker will invest $166-million to restart engine production in Alliston; federal and Ontario governments to provide $313-million and $156-million, respectively`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 6, 2026`,
+    date: `Nov 9, 2026`,
     readTime: `2 min read`,
-    url: `https://www.theglobeandmail.com/business/commentary/article-for-oil-markets-trump-is-anything-but-a-lame-duck/`,
+    url: `https://www.theglobeandmail.com/business/article-honda-alliston-engine-factory-investment-hybrid-gas-cars/`,
   },
 ];
 
