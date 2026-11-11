@@ -1,5 +1,5 @@
 // AUTO-GENERATED — do not edit by hand. Run: node scripts/fetch-news.mjs
-// Last updated: 2026-11-09T23:40:46.676Z
+// Last updated: 2026-11-11T21:42:42.307Z
 
 export interface NewsItem {
   slug: string;
@@ -18,55 +18,55 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
-    slug: `asian-stocks-to-rally-on-us-tech-surge-oil-slump-market-bloomberg`,
+    slug: `nasdaq-100-rallies-as-coreweave-quells-ai-fears-draws-b-bloomberg`,
     source: `Bloomberg`,
     sourceUrl: `https://www.bloomberg.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `MARKET`,
-    title: `Asian Stocks to Rally on US Tech Surge, Oil Slump: Markets Wrap`,
-    summary: `Asian stocks were poised to track Wall Street higher as a rally in technology shares and a slump in oil prices drove US benchmarks to their best day in seven…`,
+    title: `Nasdaq 100 Rallies as CoreWeave Quells AI Fears, Draws Buyers In`,
+    summary: `US technology stocks rallied Wednesday, with the technology-heavy Nasdaq 100 index nearly erasing losses since the US midterm election, as renewed excitement over the artificial intelligence trade lured dip buyers…`,
     body: [
-      `Asian stocks were poised to track Wall Street higher as a rally in technology shares and a slump in oil prices drove US benchmarks to their best day in seven months.`,
+      `US technology stocks rallied Wednesday, with the technology-heavy Nasdaq 100 index nearly erasing losses since the US midterm election, as renewed excitement over the artificial intelligence trade lured dip buyers in.`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 9, 2026`,
+    date: `Nov 11, 2026`,
     readTime: `2 min read`,
-    url: `https://www.bloomberg.com/news/articles/2026-11-09/stock-market-today-dow-s-p-live-updates`,
+    url: `https://www.bloomberg.com/news/articles/2026-11-11/us-equity-futures-rise-as-ai-enthusiasm-counters-hot-inflation`,
   },
   {
-    slug: `stock-market-today-nvidia-stock-slides-after-chip-maker-wsj`,
+    slug: `stock-market-today-coreweave-shares-jump-re-energizing-wsj`,
     source: `Wall Street Journal`,
     sourceUrl: `https://www.wsj.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `ECONOMY`,
-    title: `Stock Market Today: Nvidia Stock Slides After Chip Maker Opens Probe`,
-    summary: `Dow jumps more than 1,100 points, Nasdaq rallies as stocks rebound after last week&apos;s…`,
+    title: `Stock Market Today: CoreWeave Shares Jump, Re-Energizing the AI Trade`,
+    summary: `Cloud provider&apos;s latest update reassures investors; Nasdaq rises…`,
     body: [
-      `Dow jumps more than 1,100 points, Nasdaq rallies as stocks rebound after last week&apos;s rout`,
+      `Cloud provider&apos;s latest update reassures investors; Nasdaq rises 1.6%`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 9, 2026`,
+    date: `Nov 11, 2026`,
     readTime: `2 min read`,
-    url: `https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-09-2026?mod=rss_markets_main`,
+    url: `https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-11-2026?mod=rss_markets_main`,
   },
   {
-    slug: `honda-to-retool-ontario-plant-as-part-of-867-million-go-globe-mail`,
+    slug: `emerge-canada-senior-executives-improperly-borrowed-mil-globe-mail`,
     source: `The Globe and Mail`,
     sourceUrl: `https://www.theglobeandmail.com`,
     flag: `🇨🇦`,
     market: `Canada`,
     tag: `ECONOMY`,
-    title: `Honda to retool Ontario plant as part of $867-million, government-backed plan`,
-    summary: `Carmaker will invest $166-million to restart engine production in Alliston; federal and Ontario governments to provide $313-million and $156-million,…`,
+    title: `Emerge Canada, senior executives improperly borrowed millions from ETFs, securities watchdog rules`,
+    summary: `Most of the money has not been repaid and investors remain unsecured…`,
     body: [
-      `Carmaker will invest $166-million to restart engine production in Alliston; federal and Ontario governments to provide $313-million and $156-million, respectively`,
+      `Most of the money has not been repaid and investors remain unsecured creditors`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 9, 2026`,
+    date: `Nov 10, 2026`,
     readTime: `2 min read`,
-    url: `https://www.theglobeandmail.com/business/article-honda-alliston-engine-factory-investment-hybrid-gas-cars/`,
+    url: `https://www.theglobeandmail.com/business/article-emerge-canada-senior-executives-improperly-borrowed-millions-from-etfs/`,
   },
 ];
 
