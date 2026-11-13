@@ -1,5 +1,5 @@
 // AUTO-GENERATED — do not edit by hand. Run: node scripts/fetch-news.mjs
-// Last updated: 2026-11-11T21:42:42.307Z
+// Last updated: 2026-11-13T21:09:25.867Z
 
 export interface NewsItem {
   slug: string;
@@ -18,55 +18,55 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
-    slug: `nasdaq-100-rallies-as-coreweave-quells-ai-fears-draws-b-bloomberg`,
+    slug: `swiss-respiratory-biotech-windward-soars-68-in-us-tradi-bloomberg`,
     source: `Bloomberg`,
     sourceUrl: `https://www.bloomberg.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `MARKET`,
-    title: `Nasdaq 100 Rallies as CoreWeave Quells AI Fears, Draws Buyers In`,
-    summary: `US technology stocks rallied Wednesday, with the technology-heavy Nasdaq 100 index nearly erasing losses since the US midterm election, as renewed excitement over the artificial intelligence trade lured dip buyers…`,
+    title: `Swiss Respiratory Biotech Windward Soars 68% in US Trading Debut`,
+    summary: `Windward Bio Group AG shares surged 68% in its trading debut after the company raised about $225 million in an initial public offering and private…`,
     body: [
-      `US technology stocks rallied Wednesday, with the technology-heavy Nasdaq 100 index nearly erasing losses since the US midterm election, as renewed excitement over the artificial intelligence trade lured dip buyers in.`,
+      `Windward Bio Group AG shares surged 68% in its trading debut after the company raised about $225 million in an initial public offering and private placement.`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 11, 2026`,
+    date: `Nov 13, 2026`,
     readTime: `2 min read`,
-    url: `https://www.bloomberg.com/news/articles/2026-11-11/us-equity-futures-rise-as-ai-enthusiasm-counters-hot-inflation`,
+    url: `https://www.bloomberg.com/news/articles/2026-11-13/swiss-respiratory-biotech-windward-up-7-9-in-us-trading-debut`,
   },
   {
-    slug: `stock-market-today-coreweave-shares-jump-re-energizing-wsj`,
+    slug: `stock-market-today-nvidia-shares-drop-again-as-investor-wsj`,
     source: `Wall Street Journal`,
     sourceUrl: `https://www.wsj.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `ECONOMY`,
-    title: `Stock Market Today: CoreWeave Shares Jump, Re-Energizing the AI Trade`,
-    summary: `Cloud provider&apos;s latest update reassures investors; Nasdaq rises…`,
+    title: `Stock Market Today: Nvidia Shares Drop Again as Investors Eye Fallout From Huang&apos;s Removal`,
+    summary: `AI trade faces major tests next week with chip giant&apos;s earnings and Anthropic&apos;s…`,
     body: [
-      `Cloud provider&apos;s latest update reassures investors; Nasdaq rises 1.6%`,
+      `AI trade faces major tests next week with chip giant&apos;s earnings and Anthropic&apos;s IPO`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 11, 2026`,
+    date: `Nov 13, 2026`,
     readTime: `2 min read`,
-    url: `https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-11-2026?mod=rss_markets_main`,
+    url: `https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-13-2026?mod=rss_markets_main`,
   },
   {
-    slug: `emerge-canada-senior-executives-improperly-borrowed-mil-globe-mail`,
+    slug: `nvidia-had-no-succession-plan-did-the-board-consider-je-globe-mail`,
     source: `The Globe and Mail`,
     sourceUrl: `https://www.theglobeandmail.com`,
     flag: `🇨🇦`,
     market: `Canada`,
     tag: `ECONOMY`,
-    title: `Emerge Canada, senior executives improperly borrowed millions from ETFs, securities watchdog rules`,
-    summary: `Most of the money has not been repaid and investors remain unsecured…`,
+    title: `Nvidia had no succession plan. Did the board consider Jensen Huang an immortal god?`,
+    summary: `The company was on its way to AI giant status, but kept a lean structure that left the founder’s power…`,
     body: [
-      `Most of the money has not been repaid and investors remain unsecured creditors`,
+      `The company was on its way to AI giant status, but kept a lean structure that left the founder’s power unchecked`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 10, 2026`,
+    date: `Nov 13, 2026`,
     readTime: `2 min read`,
-    url: `https://www.theglobeandmail.com/business/article-emerge-canada-senior-executives-improperly-borrowed-millions-from-etfs/`,
+    url: `https://www.theglobeandmail.com/business/commentary/article-nvidia-affair-ceo-succession-plan-jensen-huang-immortal-god/`,
   },
 ];
 
