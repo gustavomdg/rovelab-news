@@ -1,5 +1,5 @@
 // AUTO-GENERATED — do not edit by hand. Run: node scripts/fetch-news.mjs
-// Last updated: 2026-11-16T23:37:49.687Z
+// Last updated: 2026-11-18T22:27:48.638Z
 
 export interface NewsItem {
   slug: string;
@@ -18,56 +18,55 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
-    slug: `latest-oil-market-news-and-analysis-for-nov-17-bloomberg`,
+    slug: `bitcoin-erases-bessent-rally-as-leverage-and-liquidity-bloomberg`,
     source: `Bloomberg`,
     sourceUrl: `https://www.bloomberg.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `MARKET`,
-    title: `Latest Oil Market News and Analysis for Nov. 17`,
-    summary: `Oil fell on signs supplies are outpacing demand, and as Vice President JD Vance signaled the US wants to avoid a prolonged war in…`,
+    title: `Bitcoin Erases Bessent Rally as Leverage and Liquidity Fade`,
+    summary: `Bitcoin has erased all the gains from its late-summer rally as fading risk appetite and the record hack at exchange Binance drove investors to retreat, leaving the largest token trading in a thinner market increasingly…`,
     body: [
-      `Oil fell on signs supplies are outpacing demand, and as Vice President JD Vance signaled the US wants to avoid a prolonged war in Iran.`,
+      `Bitcoin has erased all the gains from its late-summer rally as fading risk appetite and the record hack at exchange Binance drove investors to retreat, leaving the largest token trading in a thinner market increasingly vulnerable to sharp price swings.`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 16, 2026`,
+    date: `Nov 18, 2026`,
     readTime: `2 min read`,
-    url: `https://www.bloomberg.com/news/articles/2026-11-16/latest-oil-market-news-and-analysis-for-nov-17`,
+    url: `https://www.bloomberg.com/news/articles/2026-11-18/bitcoin-erases-bessent-rally-as-leverage-and-liquidity-fade`,
   },
   {
-    slug: `stock-market-today-nasdaq-slides-25-as-nvidia-drama-con-wsj`,
+    slug: `stock-market-today-nvidia-earnings-fail-to-soothe-inves-wsj`,
     source: `Wall Street Journal`,
     sourceUrl: `https://www.wsj.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `ECONOMY`,
-    title: `Stock Market Today: Nasdaq Slides 2.5% as Nvidia Drama Continues`,
-    summary: `U.S. moves to crack down on overseas players accessing advanced AI chips remotely; bitcoin under…`,
+    title: `Stock Market Today: Nvidia Earnings Fail to Soothe Investors&#x2019; Nerves`,
+    summary: `Chip giant&apos;s stock slips 2.9% as worries about the AI trade continue to haunt the…`,
     body: [
-      `U.`,
-      `S.`,
+      `Chip giant&apos;s stock slips 2.`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 16, 2026`,
+    date: `Nov 18, 2026`,
     readTime: `2 min read`,
-    url: `https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-16-2026?mod=rss_markets_main`,
+    url: `https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-18-2026?mod=rss_markets_main`,
   },
   {
-    slug: `united-airlines-resolves-issue-that-delayed-departing-f-globe-mail`,
+    slug: `loblaw-to-allow-shopping-with-metas-muse-ai-assistant-globe-mail`,
     source: `The Globe and Mail`,
     sourceUrl: `https://www.theglobeandmail.com`,
     flag: `🇨🇦`,
     market: `Canada`,
     tag: `ECONOMY`,
-    title: `United Airlines resolves issue that delayed departing flights`,
-    summary: `Flight tracking website FlightAware showed United with 418 delayed flights late Monday…`,
+    title: `Loblaw to allow shopping with Meta’s Muse AI assistant`,
+    summary: `Grocery giant is first retailer in Canada to partner directly with Muse, as more tech companies roll out AI shopping…`,
     body: [
-      `Flight tracking website FlightAware showed United with 418 delayed flights late Monday afternoon`,
+      `Grocery giant is first retailer in Canada to partner directly with Muse, as more tech companies roll out AI shopping agents`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 16, 2026`,
+    date: `Nov 18, 2026`,
     readTime: `2 min read`,
-    url: `https://www.theglobeandmail.com/world/article-united-airlines-failure-ground-stop/`,
+    url: `https://www.theglobeandmail.com/business/article-loblaw-metas-muse-ai-assistant-shopping-november-18/`,
   },
 ];
 
