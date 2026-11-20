@@ -1,5 +1,5 @@
 // AUTO-GENERATED — do not edit by hand. Run: node scripts/fetch-news.mjs
-// Last updated: 2026-11-18T22:27:48.638Z
+// Last updated: 2026-11-20T22:05:52.483Z
 
 export interface NewsItem {
   slug: string;
@@ -18,55 +18,56 @@ export interface NewsItem {
 
 export const newsItems: NewsItem[] = [
   {
-    slug: `bitcoin-erases-bessent-rally-as-leverage-and-liquidity-bloomberg`,
+    slug: `crowdstrike-said-in-talks-to-buy-cybersecurity-firm-zsc-bloomberg`,
     source: `Bloomberg`,
     sourceUrl: `https://www.bloomberg.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `MARKET`,
-    title: `Bitcoin Erases Bessent Rally as Leverage and Liquidity Fade`,
-    summary: `Bitcoin has erased all the gains from its late-summer rally as fading risk appetite and the record hack at exchange Binance drove investors to retreat, leaving the largest token trading in a thinner market increasingly…`,
+    title: `CrowdStrike Said in Talks to Buy Cybersecurity Firm Zscaler`,
+    summary: `CrowdStrike Holdings Inc. is in talks to acquire Zscaler Inc., according to people familiar with the matter, in a deal that would be among the largest-ever in the cybersecurity sector. Zscaler, which had a market value…`,
     body: [
-      `Bitcoin has erased all the gains from its late-summer rally as fading risk appetite and the record hack at exchange Binance drove investors to retreat, leaving the largest token trading in a thinner market increasingly vulnerable to sharp price swings.`,
+      `CrowdStrike Holdings Inc.  is in talks to acquire Zscaler Inc. , according to people familiar with the matter, in a deal that would be among the largest-ever in the cybersecurity sector.`,
+      `Zscaler, which had a market value of $32 billion at the end of regular trading Friday, rose about 16% after the close.  The two companies are discussing a potential combination that could come together soon, the people said, asking not to be identified because the information is confidential.  Bloomberg News Deals Reporter Ryan Gould reports on the deal.`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 18, 2026`,
+    date: `Nov 20, 2026`,
     readTime: `2 min read`,
-    url: `https://www.bloomberg.com/news/articles/2026-11-18/bitcoin-erases-bessent-rally-as-leverage-and-liquidity-fade`,
+    url: `https://www.bloomberg.com/news/videos/2026-11-20/crowdstrike-said-in-talks-to-buy-zscaler-video`,
   },
   {
-    slug: `stock-market-today-nvidia-earnings-fail-to-soothe-inves-wsj`,
+    slug: `stock-market-today-tech-rout-deepens-as-nvidia-anthropi-wsj`,
     source: `Wall Street Journal`,
     sourceUrl: `https://www.wsj.com`,
     flag: `🇺🇸`,
     market: `United States`,
     tag: `ECONOMY`,
-    title: `Stock Market Today: Nvidia Earnings Fail to Soothe Investors&#x2019; Nerves`,
-    summary: `Chip giant&apos;s stock slips 2.9% as worries about the AI trade continue to haunt the…`,
+    title: `Stock Market Today: Tech Rout Deepens as Nvidia, Anthropic Slide`,
+    summary: `Nasdaq tumbles 5.3%; Claude maker gives up most of its day-one gains after failing to soothe AI…`,
     body: [
-      `Chip giant&apos;s stock slips 2.`,
+      `Nasdaq tumbles 5.`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 18, 2026`,
+    date: `Nov 20, 2026`,
     readTime: `2 min read`,
-    url: `https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-18-2026?mod=rss_markets_main`,
+    url: `https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-20-2026?mod=rss_markets_main`,
   },
   {
-    slug: `loblaw-to-allow-shopping-with-metas-muse-ai-assistant-globe-mail`,
+    slug: `grand-theft-auto-vi-sets-record-with-379-billion-in-fir-globe-mail`,
     source: `The Globe and Mail`,
     sourceUrl: `https://www.theglobeandmail.com`,
     flag: `🇨🇦`,
     market: `Canada`,
     tag: `ECONOMY`,
-    title: `Loblaw to allow shopping with Meta’s Muse AI assistant`,
-    summary: `Grocery giant is first retailer in Canada to partner directly with Muse, as more tech companies roll out AI shopping…`,
+    title: `Grand Theft Auto VI sets record with $3.79-billion in first-day retail sales`,
+    summary: `Long-awaited release also drew record preorders, Rockstar Games…`,
     body: [
-      `Grocery giant is first retailer in Canada to partner directly with Muse, as more tech companies roll out AI shopping agents`,
+      `Long-awaited release also drew record preorders, Rockstar Games says`,
       `For furniture and home goods brands operating across Canada and the United States, these macro developments shape the cost environment, consumer confidence, and import logistics — all key inputs heading into the next buying cycle.`,
     ],
-    date: `Nov 18, 2026`,
+    date: `Nov 20, 2026`,
     readTime: `2 min read`,
-    url: `https://www.theglobeandmail.com/business/article-loblaw-metas-muse-ai-assistant-shopping-november-18/`,
+    url: `https://www.theglobeandmail.com/business/article-grand-theft-auto-vi-record-379-billion-first-day-retail-sales/`,
   },
 ];
 
